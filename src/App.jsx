@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import OurService from './components/OurService'
 import Culture from './components/Culture'
+import MasterBrain from './components/MasterBrain'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
    <Hero />
    <OurService />
    <Culture />
+   <MasterBrain />
     </>
   )
 }
