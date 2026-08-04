@@ -61,6 +61,7 @@ body {
   margin: 0;
   padding-left: 2%;
   padding-right: 2%;
+  color: #08060d;
 }
 
 #root {
@@ -79,10 +80,10 @@ h2 {
 }
 
 h1 {
-  font-size:4.2rem;
+  font-size:3.7rem;
   letter-spacing: -1.68px;
   margin: 32px 0;
-  line-height: 3.8rem;
+  line-height: 3.1rem;
   @media (max-width: 1024px) {
     font-size: 36px;
     margin: 20px 0;
