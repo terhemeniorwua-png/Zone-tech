@@ -19,7 +19,7 @@ function Navbar(){
         {/* Mobile Nav */}
       {
         isOpen && (
-              <div className='bg-[#000000] py-5 leading-8 rounded-lg '>
+              <div className='bg-[#000000] py-5 leading-8 rounded-lg absolute w-full'>
             <ul className='font-semibold text-center text-white'>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Services</a></li>
