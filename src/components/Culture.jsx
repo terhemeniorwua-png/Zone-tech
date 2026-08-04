@@ -13,7 +13,7 @@ function Culture(){
                 </div>
                 <div>
                     <h4 className='pb-5 text-xl font-bold textplaceholder-blue-900'>Culture of <span className='text-orange-400'> Our company</span></h4>
-                    <p>
+                    <p className='text-center'>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam laudantium ex natus voluptatem officiis accusantium distinctio architecto in nesciunt. Harum, nam perferendis deserunt aspernatur ex porro tempore commodi id quos.</p>
                 </div>
             </div>

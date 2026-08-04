@@ -26,7 +26,7 @@ function Hero(){
                 
                 <div className=''>
                     <div className='m-auto bg-black rounded-full md:ml-16 max-md:mt-5 h-72 w-72 opacity-20'></div>
-                    <img src={ heroimg } alt="worker" className='w-[90%] -bottom-56 md:w-[33%] absolute  md:top-24'/>
+                    <img src={ heroimg } alt="worker" className='w-[90%] -bottom-40 md:w-[33%] absolute  md:top-24'/>
                 </div>
             </div>
             
