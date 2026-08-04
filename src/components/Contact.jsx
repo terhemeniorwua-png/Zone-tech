@@ -7,7 +7,7 @@ function ContactUs(){
     return (
 
         <>
-            <div className='w-[70%] m-auto pt-20'>
+            <div className='md:w-[70%] m-auto pt-20'>
                 <h2 className='font-bold text-blue-950'>Contact <span className='text-orange-400'>Us</span></h2>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio inventore eos quasi nam dolorum. Quis tempore dolorem eum aperiam laboriosam? Itaque commodi vero nobis unde. Enim numquam corporis vitae quo?
             </div>

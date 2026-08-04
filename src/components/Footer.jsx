@@ -9,12 +9,12 @@ function Footer(){
         <footer>
             <div className='grid-cols-2 pt-20 text-gray-400 max-md:w-[70%] max-md:pl-5 pb-20 md:grid'>
                 <div>
-                    <img src={ logo } alt="logo" className='w-[30%]'/>
+                    <img src={ logo } alt="logo" className='md:w-[30%]'/>
                     <p className='text-sm text-gray-400'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat debitis culpa provident dignissimos, voluptas est at dolorum dolores dolorem distinctio hic neque voluptatibus atque. Minus odit facilis ducimus enim voluptatem.</p>
                 </div>
 
-                <div className='grid-cols-3 md:grid max-md:text-left max-md:pl-2'>
-                    <div className='space-y-2'>
+                <div className='grid-cols-3 md:grid max-md:text-left max-md:pl-2 max-md:space-y-10'>
+                    <div className='space-y-2 max-md:pt-10'>
                         <h3 className='font-semibold text-orange-400 underline '>About Us</h3>
                         <ul className='space-y-5 text-sm'>
                             <li>Home</li>
