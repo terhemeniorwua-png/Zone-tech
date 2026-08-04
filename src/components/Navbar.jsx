@@ -22,7 +22,7 @@ function Navbar(){
             <div>
                    <img src={ logo } alt="Logo" className='p-0 w-44'/>
                 </div>
-            <div><i class="fa-solid fa-bars text-2xl" onClick={ (e)=>handleMobileNav(e) }></i></div>
+            <div><i class="fa-solid fa-bars text-2xl pr-5" onClick={ (e)=>handleMobileNav(e) }></i></div>
         </div>
         
         <div className='bg-[#000000] py-5 leading-8 rounded-lg hidden'>
