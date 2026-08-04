@@ -17,12 +17,12 @@ function Footer(){
                     <div className='space-y-2 max-md:pt-10'>
                         <h3 className='font-semibold text-orange-400 underline '>About Us</h3>
                         <ul className='space-y-5 text-sm'>
-                            <li>Home</li>
-                            <li>About Us</li>
-                            <li>How we work</li>
-                            <li>Our Team</li>
-                            <li>Customer</li>
-                            <li>Blog</li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">How we work</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Customer</a></li>
+                            <li><a href="#">Blog</a></li>
                         </ul>
                     </div>
                     <div className='space-y-5'>

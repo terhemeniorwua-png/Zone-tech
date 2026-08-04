@@ -1,40 +1,36 @@
 import logo from '../assets/images/logo.png'
+import { useState } from 'react';
 
 function Navbar(){
-
- const handleMobileNav = (e) =>{
-    let clicked = e.target; 
-    if(clicked){
-        clicked.classList.toggle('')
-    }
-    clicked.classList.includes('hidden') && 'X'
- }
-
-
-
+ 
+    const [isOpen , setIsOpen] = useState(false)
     
-
     return (
         <header>
 
-        {/* Mobile Nav */}
+        {/* { Hamburger } */}
         <div className='flex items-center justify-between md:hidden'>
             <div>
                    <img src={ logo } alt="Logo" className='p-0 w-44'/>
                 </div>
-            <div><i class="fa-solid fa-bars text-2xl pr-5" onClick={ (e)=>handleMobileNav(e) }></i></div>
+            <div><i class="fa-solid fa-bars text-2xl pr-5" onClick={ (e)=>setIsOpen(!isOpen) }></i></div>
         </div>
         
-        <div className='bg-[#000000] py-5 leading-8 rounded-lg hidden'>
+        {/* Mobile Nav */}
+      {
+        isOpen && (
+              <div className='bg-[#000000] py-5 leading-8 rounded-lg '>
             <ul className='font-semibold text-center text-white'>
-                        <li>Home</li>
-                        <li>Services</li>
-                        <li>How We Work</li>
-                        <li>Our Team</li>
-                        <li>Careers</li>
-                        <li>Blog</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">How We Work</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
                     </ul>
         </div>
+        )
+      }
 
 
             {/* Desktop Nav */}
@@ -44,12 +40,12 @@ function Navbar(){
                 </div>
                 <nav>
                     <ul className='flex items-center justify-between gap-5 pr-5'>
-                        <li>Home</li>
-                        <li>Services</li>
-                        <li>How We Work</li>
-                        <li>Our Team</li>
-                        <li>Careers</li>
-                        <li>Blog</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">How We Work</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
                     </ul>
                 </nav>
             </div>

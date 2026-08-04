@@ -19,8 +19,8 @@ function ContactUs(){
                    md:bottom-0.5 bottom-10 md:left-52 border left-24 md:w-[60%] bg-white rounded-2xl'>
                       <img src={ contact } alt="img" className='px-5'/>
                       <div className='flex items-center justify-between px-5'>
-                        <h5>Contact Us</h5>
-                        <p className='px-5 py-1 text-white bg-orange-400 rounded-2xl'>Message</p>
+                        <h5><a href="https://wa.me/09166354571">Contact Us</a></h5>
+                        <p className='px-5 py-1 text-white bg-orange-400 rounded-2xl'><a href="https://wa.me/09166354571">Message</a></p>
                       </div>
                   </div>
                 </div>
