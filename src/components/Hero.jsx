@@ -16,7 +16,7 @@ function Hero(){
 
                <div>
                 <h1 className='font-bold md:text-left text-blue-900 md:w-[80%] tracking-wider'>Create your Success
-                       <p className='text-5xl text-center text-orange-400'>Business</p>
+                       <p className='text-5xl text-center text-orange-400 md:text-left'>Business</p>
                      </h1>
                      <p className='md:w-[80%] max-md:mb-10 max-md:text-center'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla voluptatibus est beatae, distinctio culpa ullam nostrum aliquid eum nesciunt laboriosam.</p>
                      <div className='max-md:m-auto px-5 py-2 text-white text-[15px] bg-orange-400 rounded-3xl md:w-[20%] md:mt-2'>
