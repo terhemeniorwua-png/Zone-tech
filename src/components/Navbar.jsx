@@ -6,7 +6,7 @@ function Navbar(){
         <header>
             <div className='text-[#000] font-semibold flex justify-between items-center'>
                 <div>
-                   <img src={ logo } alt="Logo" className='w-52'/>
+                   <img src={ logo } alt="Logo" className='p-0 w-44'/>
                 </div>
                 <nav>
                     <ul className='flex items-center justify-between gap-5 pr-5'>
