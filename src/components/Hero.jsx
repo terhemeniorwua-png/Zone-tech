@@ -15,7 +15,7 @@ function Hero(){
             <div className="grid-cols-2 md:grid">
 
                <div>
-                <h1 className='font-bold md:text-left text-blue-900 md:w-[80%] tracking-wider'>Create your Success
+                <h1 className='font-bold md:text-left text-blue-900 md:w-[80%] tracking-wider max-md:text-6xl'>Create your Success
                        <p className='text-5xl text-center text-orange-400 md:text-left'>Business</p>
                      </h1>
                      <p className='md:w-[80%] max-md:mb-10 max-md:text-center'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla voluptatibus est beatae, distinctio culpa ullam nostrum aliquid eum nesciunt laboriosam.</p>
@@ -26,7 +26,7 @@ function Hero(){
                 
                 <div className=''>
                     <div className='m-auto bg-black rounded-full md:ml-16 max-md:mt-5 h-72 w-72 opacity-20'></div>
-                    <img src={ heroimg } alt="worker" className='w-[90%] -bottom-40 md:w-[33%] absolute  md:top-24'/>
+                    <img src={ heroimg } alt="worker" className='w-[90%] -bottom-56 md:w-[33%] absolute  md:top-24'/>
                 </div>
             </div>
             
