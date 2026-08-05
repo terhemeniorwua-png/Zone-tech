@@ -37,11 +37,13 @@ function Navbar(){
 
             {/* Desktop Nav */}
             <div className='text-[#000] font-medium flex justify-between items-center max-md:hidden pt-5'>
+                {/* logo */}
                  <div className='flex text-2xl font-black text-blue-900'>
                    <i class="fa-solid fa-arrow-up-long"></i>
                    <p className='text-3xl'>Zone <span className='text-orange-400'>Tech</span>
                    </p>
                 </div>
+                {/* nav */}
                 <nav>
                     <ul className='flex items-center justify-between gap-5 pr-5'>
                         <li><a href="#">Home</a></li>
