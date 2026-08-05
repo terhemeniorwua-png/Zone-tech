@@ -12,7 +12,7 @@ function Hero(){
 
     return (
         <>
-            <div className="grid-cols-2 md:grid">
+            <div className="grid-cols-2 pt-16 md:grid md:pt-10">
 
                <div>
                 <h1 className='font-bold md:text-left text-blue-900 md:w-[80%] tracking-wider max-md:text-6xl'>Create your Success
@@ -25,13 +25,13 @@ function Hero(){
                 </div> 
                 
                 <div className=''>
-                    <div className='m-auto bg-black rounded-full md:ml-16 max-md:mt-5 h-72 w-72 opacity-20'></div>
-                    <img src={ heroimg } alt="worker" className='w-[90%] -bottom-56 md:w-[33%] absolute  md:top-24'/>
+                    <div className='m-auto bg-black rounded-full md:ml-16 max-md:mt-10 h-72 w-72 opacity-20'></div>
+                    <img src={ heroimg } alt="worker" className='w-[90%] -bottom-64 md:w-[33%] absolute  md:top-24'/>
                 </div>
             </div>
             
             <div>
-                <h5 className='pt-12 font-bold max-md:text-sm max-md:pt-20'>
+                <h5 className='font-bold pt-28 max-md:text-sm max-md:pt-20'>
                     <i class="fa-solid fa-chevron-left"></i>
                     
                     <span>Trusted by <span className='text-orange-400'>100+ Companies</span> Worldwide </span>

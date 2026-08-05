@@ -1,4 +1,4 @@
-import logo from '../assets/images/logo.png'
+// import logo from '../assets/images/logo.png'
 import { useState } from 'react';
 
 function Navbar(){
@@ -9,9 +9,11 @@ function Navbar(){
         <header>
 
         {/* { Hamburger } */}
-        <div className='flex items-center justify-between md:hidden'>
-            <div>
-                   <img src={ logo } alt="Logo" className='p-0 w-44'/>
+        <div className='flex items-center justify-between pt-5 md:hidden'>
+            <div className='flex text-2xl font-black text-blue-900'>
+                   <i class="fa-solid fa-arrow-up-long"></i>
+                   <p className='text-2xl'>Zone <span className='text-orange-400'>Tech</span>
+                   </p>
                 </div>
             <div><i class="fa-solid fa-bars text-2xl pr-5" onClick={ (e)=>setIsOpen(!isOpen) }></i></div>
         </div>
@@ -34,9 +36,11 @@ function Navbar(){
 
 
             {/* Desktop Nav */}
-            <div className='text-[#000] font-medium flex justify-between items-center max-md:hidden'>
-                <div>
-                   <img src={ logo } alt="Logo" className='p-0 w-44'/>
+            <div className='text-[#000] font-medium flex justify-between items-center max-md:hidden pt-5'>
+                 <div className='flex text-2xl font-black text-blue-900'>
+                   <i class="fa-solid fa-arrow-up-long"></i>
+                   <p className='text-3xl'>Zone <span className='text-orange-400'>Tech</span>
+                   </p>
                 </div>
                 <nav>
                     <ul className='flex items-center justify-between gap-5 pr-5'>
